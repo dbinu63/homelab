@@ -25,16 +25,16 @@ Workstations interact with the NAS as follows:
 - MacBook → Tailscale VPN → NAS
 - Docker containers run on NAS and provide additional services to connected workstations
 
-### Diagram (ASCII)
-   [PC Workstation]
+### Diagram
+   (PC Workstation)
          |
          | LAN
          v
-      [NAS Server]---[Docker Containers]
+   (NAS Server)---(Docker Containers)
          ^
          | Tailscale VPN
          |
-    [MacBook / Remote]
+   (MacBook / Remote)
 
 
 ## Current Functionality
